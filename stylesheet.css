@@ -16,18 +16,17 @@ a:visited {
 .buttonimg {
     max-height: 100%;
     position: relative;
-    bottom: -4px;
+    bottom: -6px;
 }
 nav {
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
+    margin: 0 5px;
     font-size: 14px;
     font-family: arial, sans-serif;
 
 }
 
 a.navlinks {
-    margin-left: 25px;
+    margin-left:14px;
     top: 50%;
 }
 
@@ -35,19 +34,20 @@ a.navlinks {
     width: 100%;
     display: block;
     vertical-align: middle;
-    height: 40px;
-    padding: 6px 6px 6px 6px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 4px 4px 4px 4px;
+    margin-bottom: 44px;
 
 }
 
 #rightnav {
     float: right;
+    font-size: 13px;
 }
 
 #leftnav {
    float: left;
+   padding-top: 9px;
+
 }
 
 .centercontent {
@@ -67,11 +67,12 @@ a.navlinks {
 .button {
     background-color:rgb(26, 115, 232);
     color: #FFF;
+    font-size: 14px;
     border-radius: 4px;
-    margin-left: 25px;
+    margin-left: 23px;
     padding-left: 23px;
     padding-right: 23px;
-    padding-bottom: 9px;
-    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
 }

@@ -99,7 +99,7 @@ a.navlinks {
 @media only screen and (min-height: 600px) {
     #googlewrap {
         position: absolute;
-        bottom: 260px;
+        bottom: 320px;
     }
 }
 
@@ -115,11 +115,13 @@ a.navlinks {
     margin-top: 30px;
     height: 44px;
     border-radius: 24px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid rgb(230, 230, 230);
     width: 584px;
     display: flex;
     flex-direction:row;
+    box-shadow: rgba(20, 31, 65, 0.1) 0px 1px 6px 0px;
 }
+
 
 
 #googleinput {
@@ -140,10 +142,10 @@ input:focus {
 
 .magnifier {
 margin-top: 3px;
-color: #9aa0a6;
+opacity: 0.4;
 height: 20px;
 width: 20px;
-padding: 10px;
+padding: 11px;
 }
 
 #searchlinks {
